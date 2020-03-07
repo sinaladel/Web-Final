@@ -1,0 +1,20 @@
+html{
+    text-align: center;
+}
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 6px;
+    margin: 3px;
+    border: 2px solid black;
+    width: 100px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#header{
+    border-top: solid black 6px;
+    border-bottom: solid black 6px;
+    padding: 3px;
+    margin: 2px;
+}
