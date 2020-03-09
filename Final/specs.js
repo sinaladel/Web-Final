@@ -8,6 +8,15 @@ $(document).ready(function () {
         "width": "100px",
         "text-align": "center"
     })
+    $('.table').hover(function() {
+        $(this).css({
+            "background-color": "lightgrey"
+        })
+    }, function () {
+        $(this).css({
+            "background-color":"transparent"
+        })
+    })
 
 
 
